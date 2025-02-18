@@ -31,7 +31,7 @@ spec:
       - name: APP_NAME
         value: sample-rest-api
       - name: GIT_REPO
-        value: https://github.com/[CHANGE ME]/iha-poc.git
+        value: https://github.com/garybeckett/iha-poc.git
       - name: GIT_REVISION
         value: "poc"
       - name: IMAGE_NAME
