@@ -25,7 +25,7 @@ async def usage():
 @app.get("/hello")
 async def read_hello():
     # Return a JSON object with the key "message" and value "Hello World"
-    return {"message": "Hello World from " + service_local}
+    return {"message": "Hello World IslandHealth " + service_local}
 
 @app.get("/hello-service")
 async def read_hello():
